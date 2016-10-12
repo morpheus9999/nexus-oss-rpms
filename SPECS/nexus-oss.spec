@@ -70,6 +70,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Wed Oct 12 2016 Julio Gonzalez <git@juliogonzalez.es> - 2.14.0-01
 - Update to 2.14.0-01
+
 * Sun May 29 2016 Julio Gonzalez <git@juliogonzalez.es> - 2.13.0-01
 - Update to 2.13.0-01
 
