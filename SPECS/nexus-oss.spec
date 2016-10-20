@@ -12,6 +12,7 @@ Requires(postun): /usr/sbin/userdel
 AutoReqProv: no
 
 %define __os_install_post %{nil}
+%undefine _missing_build_ids_terminate_build
 
 %description
 A package repository
