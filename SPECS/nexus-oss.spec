@@ -12,6 +12,8 @@ Requires(postun): /usr/sbin/userdel
 AutoReqProv: no
 
 %define __os_install_post %{nil}
+%global _missing_build_ids_terminate_build 0
+%global debug_package %{nil}
 %undefine _missing_build_ids_terminate_build
 
 %description
