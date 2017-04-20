@@ -1,7 +1,7 @@
 Summary: Nexus manages software “artifacts” required for development, deployment, and provisioning.
 Name: nexus3
-Version: 3.1.0
-Release: 04
+Version: 3.3.0
+Release: 01
 License: AGPL
 Group: unknown
 URL: http://nexus.sonatype.org/
@@ -66,6 +66,8 @@ rm -rf $RPM_BUILD_ROOT
 %attr(-,%{name},%{name}) /usr/share/%{name}
 
 %changelog
+* Thu Apr 20 2017 Jorge Figueira <jorge.figueira@wit-software.com> - 3.3.0-01
+- Update packaging for Nexus 3.3
 * Wed Nov 2 2016 Jorge Figueira <git@juliogonzalez.es> - 3.1.0-04
 - Update packaging for Nexus 3.1
 * Fri Apr 8 2016 Julio Gonzalez <git@juliogonzalez.es> - 3.0.0-03
